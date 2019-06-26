@@ -1,13 +1,21 @@
+#main_body {
+    background: url(background.jpg);
+    background-size: 100%;
+}
+
 #main_header {
-    text-align: center
+    text-align: center;
+    color: white;
 }
 
 #section_1 {
-    text-align: center
+    text-align: center;
+    color: white;
 }
 
 #paragraph_1 {
-    text-align: center
+    text-align: center;
+    color: white;
 }
 
 #pythonlogo {
