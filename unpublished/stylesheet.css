@@ -1,15 +1,24 @@
+#main_body {
+    background: url(background.jpg);
+    background-size: 100%;
+}
+
 #main_header {
     text-align: center;
+    color: white;
 }
 
 #second_header {
     text-align: center;
+    color: white;
 }
 
 #third_header {
     text-align: center;
+    color: white;
 }
 
 #intro {
     text-align: center;
+    color: white;
 }
