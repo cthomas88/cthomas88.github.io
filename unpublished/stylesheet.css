@@ -6,19 +6,24 @@
 #main_header {
     text-align: center;
     color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 #second_header {
     text-align: center;
     color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 #third_header {
     text-align: center;
     color: white;
+    font-family: 'Abel', sans-serif;
 }
 
 #intro {
     text-align: center;
     color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 110%;
 }
