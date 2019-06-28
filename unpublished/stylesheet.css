@@ -3,6 +3,11 @@
     background-size: 100%;
 }
 
+#nav_bar a {
+    color: white;
+    background-color: black;
+}
+
 #main_header {
     text-align: center;
     color: white;
