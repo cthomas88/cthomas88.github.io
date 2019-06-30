@@ -3,9 +3,19 @@
     background-size: 100%;
 }
 
-#nav_bar a {
-    color: white;
-    background-color: black;
+.nav_bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1%;
+    margin: 0%;
+    text-decoration: none;
+    font-size: 160%;
+}
+
+.nav_bar a:hover {
+    background-color: #B91B0C;
+    color: black;
 }
 
 #main_header {
