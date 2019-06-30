@@ -1,6 +1,11 @@
-#main_body {
+.main_body {
     background: url(background.jpg);
     background-size: 100%;
+}
+
+.nav_bar {
+    background-color: rgb(12, 6, 37);
+    text-align: center;
 }
 
 .nav_bar a {
@@ -14,31 +19,25 @@
 }
 
 .nav_bar a:hover {
-    background-color: #B91B0C;
-    color: black;
+    background-color: rgb(12, 6, 37);
+    color: #EFE65A;
 }
 
-#main_header {
+.main_header {
     text-align: center;
     color: white;
     font-family: 'Maven Pro', sans-serif;
 }
 
-#second_header {
+.second_header {
     text-align: center;
     color: white;
     font-family: 'Maven Pro', sans-serif;
 }
 
-#third_header {
+.third_header {
     text-align: center;
     color: white;
     font-family: 'Abel', sans-serif;
 }
 
-#intro {
-    text-align: center;
-    color: white;
-    font-family: 'Abel', sans-serif;
-    font-size: 110%;
-}
