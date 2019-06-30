@@ -6,16 +6,14 @@
 .header_section {
     background-color: rgb(12, 6, 37, 0.3);
     padding: 1.5%;
+    padding-bottom: 3%;
 }
 
 .nav_bar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
+    color: #ffffff;
     padding: 1%;
-    margin: 0%;
     text-decoration: none;
-    font-size: 160%;
+    font-size: 100%;
 }
 
 .nav_bar a:hover {
