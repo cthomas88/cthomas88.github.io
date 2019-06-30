@@ -4,21 +4,27 @@
 }
 
 .header_section {
-    background-color: rgb(12, 6, 37, 0.3);
+    background-color: rgba(207, 205, 214, 0.3);
     padding: 1.5%;
     padding-bottom: 3%;
+}
+
+.nav_bar {
+    background-color:  rgb(15, 5, 54);
+    overflow: hidden;
+    padding: 1.5%;
 }
 
 .nav_bar a {
     color: #ffffff;
     padding: 1%;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 130%;
 }
 
 .nav_bar a:hover {
-    background-color: rgb(12, 6, 37);
-    color: #EFE65A;
+    background-color: rgb(29, 4, 128);
+    color: white;
 }
 
 .main_header {
