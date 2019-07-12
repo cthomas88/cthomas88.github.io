@@ -1,8 +1,5 @@
 body {
     background-attachment: fixed;
-}
-
-.main_body {
     background: url(background.jpg);
     background-size: 100%;
 }
