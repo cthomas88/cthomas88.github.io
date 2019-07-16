@@ -1,44 +1,27 @@
 body {
+    background: rgb(23, 28, 68);
+    color: white;
+}
+
+#home-section {
+    background: url(../background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    background: url(background.jpg);
-    background-size: 100%;
+    min-height: 700px;
 }
 
-.header_section {
-    background-color: rgba(207, 205, 214, 0.3);
-    padding: 1.5%;
-    padding-bottom: 3%;
+#home-section .home-inner {
+    padding-top: 150px;
 }
 
-.nav_bar {
-    background-color:  rgb(15, 5, 54);
-    overflow: hidden;
-    padding: 1.5%;
-    font-family: 'Oswald', sans-serif;
+#home-section .card-form {
+    opacity: 0.8;
 }
 
-.nav_bar a {
-    color: #ffffff;
-    padding: 1%;
-    text-decoration: none;
-    font-size: 130%;
+#home-section .fas {
+    color: #008ed6;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
 }
-
-.nav_bar a:hover {
-    background-color: rgb(29, 4, 128);
-    color: white;
-}
-
-.main_header {
-    text-align: center;
-    color: white;
-    font-family: 'Maven Pro', sans-serif;
-}
-
-.second_header {
-    text-align: center;
-    color: white;
-    font-family: 'Maven Pro', sans-serif;
-}
-
-
