@@ -42,6 +42,7 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+    background-position: -3000px, 300px;
 }
 
 .dark-overlay {
