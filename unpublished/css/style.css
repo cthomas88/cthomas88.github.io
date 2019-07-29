@@ -68,9 +68,9 @@ body {
     color: white;
 }
 
-#page-header {
+#about-page-header {
     height: 200px;
-    background: url('../img/image1.jpg');
+    background: url('../img/aboutimage1.jpg');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: white;
