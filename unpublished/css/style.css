@@ -42,7 +42,18 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    background-position: -3000px, 300px;
+    background-position: -1000px, 2000px;
+}
+
+#home-heading-2 {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/code.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    background-position: -3000px, 1000px;
 }
 
 .dark-overlay {
