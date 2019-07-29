@@ -83,7 +83,7 @@ body {
 #about-page-header {
     height: 200px;
     background: url('../img/aboutimage1.jpg');
-    background-position: 0 -360px;
+    background-position: -500px, 0;
     background-attachment: fixed;
     color: white;
     border-bottom: 1px #eee solid;
