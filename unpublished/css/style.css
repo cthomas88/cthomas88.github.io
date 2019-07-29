@@ -132,3 +132,27 @@ body {
     background: black;
     color: white;
 }
+
+@media (min-width: 576px) {
+    #home-heading {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    #home-heading {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    #home-heading-2 {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    #home-heading-2 {
+        padding: 5px;
+    }
+}
