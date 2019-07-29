@@ -36,7 +36,7 @@ body {
 
 #home-heading {
     position: relative;
-    min-height: 200px;
+    min-height: 220px;
     background: url('../img/code.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body {
 
 #home-heading-2 {
     position: relative;
-    min-height: 200px;
+    min-height: 220px;
     background: url('../img/code.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -81,6 +81,26 @@ body {
 }
 
 #about-page-header {
+    height: 200px;
+    background: url('../img/aboutimage1.jpg');
+    background-position: -500px, 0;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#services-page-header {
+    height: 200px;
+    background: url('../img/aboutimage1.jpg');
+    background-position: -500px, 0;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#contact-page-header {
     height: 200px;
     background: url('../img/aboutimage1.jpg');
     background-position: -500px, 0;
