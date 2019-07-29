@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/40fe98dfe1.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <title>Python Pro | Professional web services</title>
 </head>
@@ -122,7 +121,7 @@
         <div class="dark-overlay">
             <div class="row">
                 <div class="col">
-                    <div class="container py-5">
+                    <div class="container py-5 mb-3">
                         <h1>What is your project?</h1>
                         <p>Python Pro freelance software engineers and web developers are professional and friendly and experts in their field. So whethers its a website for your upcoming wedding or a corportate e-commerce site you're looking for, we can help. So, what is your project?</p>
                     </div>
@@ -152,7 +151,7 @@
         <div class="dark-overlay">
             <div class="row">
                 <div class="col">
-                    <div class="container py-5">
+                    <div class="container py-5 mb-3">
                         <h1>Leave the code to us</h1>
                         <p>Run your business the way you always intended, and leave the confusing IT and code to the experts. Without ever relinquishing control over your vision, we deal with the technical jargon and skills.</p>
                     </div>
@@ -207,7 +206,7 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
 
     <script>
         // Get the current year for copyright
@@ -218,20 +217,6 @@
             interval: 6000,
             pause: 'hover'
         })
-
-        // Video Play
-        $(function () {
-            // Auto play modal video
-            $(".video").click(function () {
-                var theModal = $(this).data("target"),
-                    videoSRC = $(this).attr("data-video"),
-                    videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-                $(theModal + ' iframe').attr('src', videoSRCauto);
-                $(theModal + ' button.close').click(function () {
-                    $(theModal + ' iframe').attr('src', videoSRC);
-                });
-            });
-        });
 
 
 
