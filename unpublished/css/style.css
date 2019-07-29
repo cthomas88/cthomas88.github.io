@@ -36,7 +36,7 @@ body {
 
 #home-heading {
     position: relative;
-    min-height: 220px;
+    min-height: 250px;
     background: url('../img/code.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body {
 
 #home-heading-2 {
     position: relative;
-    min-height: 220px;
+    min-height: 250px;
     background: url('../img/code.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -133,26 +133,3 @@ body {
     color: white;
 }
 
-@media (min-width: 576px) {
-    #home-heading {
-        padding: 5px;
-    }
-}
-
-@media (min-width: 768px) {
-    #home-heading {
-        padding: 5px;
-    }
-}
-
-@media (min-width: 576px) {
-    #home-heading-2 {
-        padding: 5px;
-    }
-}
-
-@media (min-width: 768px) {
-    #home-heading-2 {
-        padding: 5px;
-    }
-}
