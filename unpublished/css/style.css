@@ -133,3 +133,14 @@ body {
     color: white;
 }
 
+@media(max-width: 768px) {
+    #home-heading {
+        min-height: 500px;
+
+    }
+
+
+    #home-heading-2 {
+        min-height: 500px;
+    }
+}
