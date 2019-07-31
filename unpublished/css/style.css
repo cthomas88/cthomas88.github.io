@@ -100,6 +100,10 @@ body {
     padding-top: 50px;
 }
 
+#services-page-header, h1 {
+    padding-top: 10px;
+}
+
 #contact-page-header {
     height: 200px;
     background: url('../img/aboutimage1.jpg');
