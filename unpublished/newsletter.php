@@ -14,6 +14,6 @@
     
     mail($to,$email_subject,$email_body,$headers);
 
-    header("location: thanks");
+    header("location: thanksnewsletter");
 
 ?>
